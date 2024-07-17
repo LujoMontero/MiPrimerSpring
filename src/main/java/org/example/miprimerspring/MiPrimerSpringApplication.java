@@ -12,6 +12,10 @@ public class MiPrimerSpringApplication {
 
         Persona persona = new Persona("Luis", "Montero", 31);
         System.out.println(persona);
+
+        System.out.println("Nombre: " + persona.getNombre());
+        System.out.println("Apellido: " + persona.getApellido());
+        System.out.println("Edad: " + persona.getEdad());
     }
 
 }
