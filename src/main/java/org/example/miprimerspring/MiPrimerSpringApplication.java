@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MiPrimerSpringApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(MiPrimerSpringApplication.class, args);
+
+        Persona persona = new Persona("Luis", "Montero", 31);
+        System.out.println(persona);
     }
 
 }
